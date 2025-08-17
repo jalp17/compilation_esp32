@@ -1,6 +1,6 @@
 {
   "name": "ESP-IDF",
-  "image": "espressif/idf:v5.1.2_esp32_full",
+  "image": "espressif/idf:v5.1.2",
   "remoteUser": "root",
   "settings": {},
   "postCreateCommand": "pip install --upgrade esptool"
