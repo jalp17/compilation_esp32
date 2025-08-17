@@ -1,0 +1,14 @@
+{
+  "name": "ESP-IDF Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/devcontainer:latest",
+  "features": {
+    "ghcr.io/espressif/devcontainer/esp-idf-v5-1:1": {
+      "variant": "esp32"
+    }
+  },
+  "remoteUser": "vscode",
+  "settings": {
+    "espressif.espIdfPath": "/home/vscode/esp/esp-idf",
+    "espressif.toolsPath": "/home/vscode/esp/tools"
+  }
+}
